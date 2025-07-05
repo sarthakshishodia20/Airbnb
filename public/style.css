@@ -7,6 +7,11 @@ body{
     /* background-color: black !important; */
     min-height: 100vh;
 }
+html, body {
+  scroll-behavior: auto !important;
+  overflow-x: hidden;
+}
+
 .container{
     flex: 1;
 }
